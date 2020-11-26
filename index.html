@@ -13,18 +13,30 @@
 
 <body>
     <div class="chatbot">
-        <div id="info">
+        <div id="info" class="hide">
+            <input type="button" value="X" id="closeChat">
         </div>
-        <div id="zoneMessage">
+        <div id="zoneMessage" class="hide">
+            <div id="message" class="message">
+                <img src="img/user.png" alt="Logo user">
+                <p>Hi there 👋 <br> What brings you to Appetee today ?</p>
+            </div>
+            <div id="message" class="message">
+                <img src="img/user.png" alt="Logo user">
+                <p>Hi there 👋 <br> What brings you to Appetee today ?</p>
+            </div>
             <div id="message" class="message">
                 <img src="img/user.png" alt="Logo user">
                 <p>Hi there 👋 <br> What brings you to Appetee today ?</p>
             </div>
         </div>
-        <div id="button">
+        <div id="button" class="hide">
             <input type="button" value="Im new and i want to learn about Appetee">
             <input type="button" value="I have a question">
             <input type="button" value="Just browsing">
+        </div>
+        <div id="openChat">
+            <p>Discut with me !</p>
         </div>
     </div>
     <script type="text/javascript" src="script.js"></script>

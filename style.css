@@ -12,22 +12,32 @@ body{
     background-color: white;
     min-height: 340px;
     border-radius: 8px;
+    position: relative;
 }
 
 /* INFO BOT */
 
 #info{
     height: 60px;
-    background-image: linear-gradient(to right, #3040D9, #1726AA);
+    background-image: linear-gradient(to right, #c01824, #ec6c5e);
     max-width: 100%;
 }
 
+#info input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin: 20px 0 0 20px;
+    font-size: 18px;
+    transform: rotate(90deg);
+    color: white;
+}
 
 /* ZONE DE MESSAGE */
 
 #zoneMessage{
     display: block;
     height: calc(100% - 210px);
+    overflow: auto;
 }
 
 #zoneMessage img{
@@ -58,11 +68,27 @@ body{
 
 #button input{
     margin: 4px 15px;
-    background-color: #E6EBFC;
+    background-color: #ffc4bd;
     border: none;
     border-radius: 2px;
     padding: 10px 10px;
     font-size: 0.8em;
     display: block;
 
+}
+
+/* OPEN CHATBOT */
+
+#openChat{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ec6c5e;
+    padding: 0 10px;
+    border-radius: 50px;
+    color: white;
+}
+
+.hide{
+    visibility: hidden;
 }

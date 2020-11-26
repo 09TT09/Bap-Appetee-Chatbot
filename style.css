@@ -35,11 +35,11 @@ body{
     max-width: 10%;
 }
 
-#message{
+.message{
     max-width: 100%;
 }
 
-#message p{
+.message p{
     display: inline-block;
     margin: 15px;
     padding: 20px;

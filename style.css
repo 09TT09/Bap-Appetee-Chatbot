@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #3d3d3d;
+    font-family: 'Roboto', sans-serif;
 }
 
 .chatbot{
@@ -9,4 +10,59 @@ body{
     width: 350px;
     height: 80vh;
     background-color: white;
+    min-height: 340px;
+    border-radius: 8px;
+}
+
+/* INFO BOT */
+
+#info{
+    height: 60px;
+    background-image: linear-gradient(to right, #3040D9, #1726AA);
+    max-width: 100%;
+}
+
+
+/* ZONE DE MESSAGE */
+
+#zoneMessage{
+    display: flex;
+    height: calc(100% - 210px);
+}
+
+#zoneMessage img{
+    margin: 0 0 0 10px;
+    max-width: 10%;
+}
+
+#message{
+    max-width: 100%;
+}
+
+#message p{
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    max-width: calc(90% - 60px);
+    font-size: 0.9em;
+}
+
+/* ZONE DE REPONSE */
+
+#button{
+    height: 150px;
+    max-width: 100%;
+}
+
+#button input{
+    margin: 4px 15px;
+    background-color: #E6EBFC;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    font-size: 0.9em;
+    display: block;
+
 }
